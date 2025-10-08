@@ -3,13 +3,14 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<title>台中市景點推薦</title>
 	<style>
 		.container { margin: 0 auto; width:1024px; }
 		.large_font { font-size:30px; }
-        td { text-align: center; }
+        td { text-align: center; padding: 30px;}
 		img { border-radius: 30px; }
 		.img_round { border-radius: 50%; width:350px; height:350px; }
+		.round_corner { border-radius: 30px;}
 
 		/* The navigation bar */
 .navbar {
@@ -41,13 +42,13 @@
 <body>
 
 <div class="navbar">
-  <a href="home">回首頁</a>
-  <a href="s1">台中國家歌劇院</a>
-  <a href="s2">台中州廳</a>
-  <a href="s3">審計新村</a>
+  <a href="#home">回首頁</a>
+  <a href="#s1">台中國家歌劇院</a>
+  <a href="#s2">台中州廳</a>
+  <a href="#s3">審計新村</a>
 </div>
 
-<div class="container">
+<div id="home" class="container">
 	<table>
 		<tr>
 			<td colspan="2">
@@ -70,7 +71,7 @@
 		</tr>
 		<tr>
 			<td>
-				<img class="img_round" src="01.jpeg">
+				<img id="s1" class="img_round" src="01.jpeg">
 			</td>
 			<td>
 				<div class="large_font">台中國家歌劇院</div>
@@ -94,12 +95,12 @@
 			</td>
 			<td>
 				
-                <img class="img_round"img src="02.jpeg">
+                <img id="s2" class="img_round"img src="02.jpeg">
 </td>
 		</tr>
 		<tr>
 			<td>
-				<img class="img_round"img src="03.jpeg">
+				<img id="s3" class="img_round"img src="03.jpeg">
 			</td>
 			<td>
 				<div class="large_font">審計新村</div>
@@ -111,6 +112,10 @@
 		</tr>
 		<tr>
 			<td colspan="2">
+				<br>
+				<br>
+				<br>
+				<iframe class="round_corner" frameborder="0" src="https://www.google.com/maps/d/embed?mid=1nAeVphW-28aA9G8bVqYSDCKe1H-4N60&ehbc=2E312F" width="1024" height="800"></iframe>
 				大傳三A 411219975 丁宸煒
 			</td>
 			
