@@ -10,14 +10,50 @@
         td { text-align: center; }
 		img { border-radius: 30px; }
 		.img_round { border-radius: 50%; width:350px; height:350px; }
+
+		/* The navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
 	</style>
 </head>
 <body>
+
+<div class="navbar">
+  <a href="home">回首頁</a>
+  <a href="s1">台中國家歌劇院</a>
+  <a href="s2">台中州廳</a>
+  <a href="s3">審計新村</a>
+</div>
 
 <div class="container">
 	<table>
 		<tr>
 			<td colspan="2">
+				<br>
+				<br>
+				<br>
 				<div class="large_font">台中市景點推薦</div>
 				<img src="00.jpeg">
 			</td>
